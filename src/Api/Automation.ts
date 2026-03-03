@@ -1,6 +1,6 @@
 class Automation {
     static async SendMessage (message: string) {
-        const res = await fetch("http://localhost:4000/api/automation/chat", {
+        const res = await fetch("https://shiftly-ai-be.vercel.app/api/automation/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
